@@ -1,0 +1,19 @@
+ul li {
+display: inline;
+float: left;
+}
+.container{
+margin:0 auto;
+width:768px;
+}
+form {
+border: 2px solid #e2e2e2;
+border-radius: 5px;
+padding: 20px;
+overflow:hidden;
+background-color: #eaebeb;
+background-image: -moz-linear-gradient( #f3f3f3, #eaebeb 80% );
+background-image: -o-linear-gradient( #f3f3f3, #eaebeb 80% );
+background-image: -webkit-gradient( linear, left top, left bottom, from(#f3f3f3), to(#eaebeb), color-stop(.8, #eaebeb) );
+background-image: -webkit-linear-gradient( #f3f3f3, #eaebeb 80% );
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Join Session</title>
+	<link rel="stylesheet" href="deckjs/custom/login.css">
+</head>
+
+<body >
+	<div class="container">
+		<form action="/user" method="post" onsubmit="localStorage.setItem('userId',document.getElementById('uname').value)">
+				<h2>Join Session</h2>
+				<ul>
+					<li>
+						<label for="uname">Enter Name</label>
+						<input type="text" name="uname" id="uname" class="uname" title="" required>
+					</li>
+					<li class="button">
+						<input type="submit" value="Continue">
+					</li>
+				</ul>
+				<input type="hidden" value="user" name="mode">
+				<div class="clearBoth"></div>
+		</form>
+	
+	</div>
+
+
+
+</body>
+</html>

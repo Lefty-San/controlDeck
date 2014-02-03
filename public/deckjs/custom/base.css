@@ -1,0 +1,36 @@
+.chat-window{
+	position:absolute;
+	right:15px;
+	bottom:0px;
+	width:150px;
+	height:200px;
+	border:1px solid #000 !important;
+	font-size:12px !important;
+	z-index:1000;	
+}
+.chat-header{
+font-weight: bold;
+background: green;
+}
+.chat-current-section{
+font-size:44px !important;
+font-weight:bold !important;
+}
+
+.chat-content{
+height:150px;
+overflow:auto;
+}
+.chat-content-ac{
+height:130px;
+overflow:auto;
+}
+.left-pane{
+float:left;
+width:100%;
+min-height:100%;
+}
+.right-pane{
+float:right;
+height:100%;
+}
