@@ -1,18 +1,19 @@
 {
-  "name": "controldeck",
-  "version": "0.0.0",
-  "description": "Control HTML5 Presentations with node.js",
-  "main": "app.js",
-  "dependencies": {
-    "node-static": "~0.6.6",
-    "socket.io": "~0.9.13"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/dfcb/controldeck.js.git"
-  },
-  "keywords": [],
-  "author": "John Polacek",
-  "license": "MIT"
+    "name": "controldeck",
+    "version": "0.0.0",
+    "description": "Control HTML5 Presentations with node.js",
+    "main": "app.js",
+    "dependencies": {
+        "node-static": "~0.6.6",
+        "socket.io": "~0.9.13",
+        "express": "3.x"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dfcb/controldeck.js.git"
+    },
+    "keywords": [],
+    "author": "John Polacek",
+    "license": "MIT"
 }
